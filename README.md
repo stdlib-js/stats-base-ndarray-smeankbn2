@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import smeankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smeankbn2@deno/mod.js';
+import smeankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smeankbn2@v0.1.1-deno/mod.js';
 ```
 
 #### smeankbn2( arrays )
@@ -109,7 +109,7 @@ The function has the following parameters:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import smeankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smeankbn2@deno/mod.js';
+import smeankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smeankbn2@v0.1.1-deno/mod.js';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
